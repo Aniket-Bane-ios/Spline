@@ -1,4 +1,4 @@
-Adding Package to Xcode Project
+#Adding Package to Xcode Project
 
 This guide will walk you through the process of adding a package dependency to your Xcode project.
 
