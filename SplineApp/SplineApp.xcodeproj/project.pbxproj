@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2C8AC3D2B8E1B050010C0C4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8AC3C2B8E1B050010C0C4 /* CardView.swift */; };
+		E2C8AC4B2B8E1D9C0010C0C4 /* ObjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8AC4A2B8E1D9C0010C0C4 /* ObjectData.swift */; };
+		E2C8AC4E2B8E1EC10010C0C4 /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8AC4D2B8E1EC10010C0C4 /* ObjectModel.swift */; };
+		E2C8AC582B8E332F0010C0C4 /* i_phone_14_pro_copy.splineswift in Resources */ = {isa = PBXBuildFile; fileRef = E2C8AC572B8E332F0010C0C4 /* i_phone_14_pro_copy.splineswift */; };
+		E2C8AC5A2B8E35F20010C0C4 /* t_shirt_long_sleeve_male_dark_copy.splineswift in Resources */ = {isa = PBXBuildFile; fileRef = E2C8AC592B8E35F20010C0C4 /* t_shirt_long_sleeve_male_dark_copy.splineswift */; };
+		E2C8AC5D2B8E38A50010C0C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8AC5C2B8E38A50010C0C4 /* Extensions.swift */; };
+		E2C8AC5F2B8E3C6B0010C0C4 /* apple_watch_copy.splineswift in Resources */ = {isa = PBXBuildFile; fileRef = E2C8AC5E2B8E3C6B0010C0C4 /* apple_watch_copy.splineswift */; };
+		E2C8AC612B8E3CEF0010C0C4 /* gameboy_copy.splineswift in Resources */ = {isa = PBXBuildFile; fileRef = E2C8AC602B8E3CEF0010C0C4 /* gameboy_copy.splineswift */; };
+		E2C8AC672B8E43370010C0C4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C8AC662B8E43370010C0C4 /* Helpers.swift */; };
+		E2C8AC692B8E457F0010C0C4 /* polaroid_go_copy.splineswift in Resources */ = {isa = PBXBuildFile; fileRef = E2C8AC682B8E457F0010C0C4 /* polaroid_go_copy.splineswift */; };
+		E2F57B292B8DFA35002A8830 /* SplineAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F57B282B8DFA35002A8830 /* SplineAppApp.swift */; };
+		E2F57B2B2B8DFA35002A8830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F57B2A2B8DFA35002A8830 /* ContentView.swift */; };
+		E2F57B2D2B8DFA37002A8830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F57B2C2B8DFA37002A8830 /* Assets.xcassets */; };
+		E2F57B302B8DFA37002A8830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F57B2F2B8DFA37002A8830 /* Preview Assets.xcassets */; };
+		E2F57B3B2B8DFB0F002A8830 /* PurchaseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F57B3A2B8DFB0F002A8830 /* PurchaseButtonView.swift */; };
+		E2F57B402B8E001D002A8830 /* Render3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F57B3F2B8E001D002A8830 /* Render3DView.swift */; };
+		E2F57B432B8E0034002A8830 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = E2F57B422B8E0034002A8830 /* SplineRuntime */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2C8AC3C2B8E1B050010C0C4 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E2C8AC4A2B8E1D9C0010C0C4 /* ObjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectData.swift; sourceTree = "<group>"; };
+		E2C8AC4D2B8E1EC10010C0C4 /* ObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectModel.swift; sourceTree = "<group>"; };
+		E2C8AC572B8E332F0010C0C4 /* i_phone_14_pro_copy.splineswift */ = {isa = PBXFileReference; lastKnownFileType = file; path = i_phone_14_pro_copy.splineswift; sourceTree = "<group>"; };
+		E2C8AC592B8E35F20010C0C4 /* t_shirt_long_sleeve_male_dark_copy.splineswift */ = {isa = PBXFileReference; lastKnownFileType = file; path = t_shirt_long_sleeve_male_dark_copy.splineswift; sourceTree = "<group>"; };
+		E2C8AC5C2B8E38A50010C0C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2C8AC5E2B8E3C6B0010C0C4 /* apple_watch_copy.splineswift */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple_watch_copy.splineswift; sourceTree = "<group>"; };
+		E2C8AC602B8E3CEF0010C0C4 /* gameboy_copy.splineswift */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameboy_copy.splineswift; sourceTree = "<group>"; };
+		E2C8AC662B8E43370010C0C4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E2C8AC682B8E457F0010C0C4 /* polaroid_go_copy.splineswift */ = {isa = PBXFileReference; lastKnownFileType = file; path = polaroid_go_copy.splineswift; sourceTree = "<group>"; };
+		E2F57B252B8DFA35002A8830 /* Spline-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spline-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F57B282B8DFA35002A8830 /* SplineAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplineAppApp.swift; sourceTree = "<group>"; };
+		E2F57B2A2B8DFA35002A8830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2F57B2C2B8DFA37002A8830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F57B2F2B8DFA37002A8830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2F57B3A2B8DFB0F002A8830 /* PurchaseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButtonView.swift; sourceTree = "<group>"; };
+		E2F57B3F2B8E001D002A8830 /* Render3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Render3DView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F57B222B8DFA35002A8830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F57B432B8E0034002A8830 /* SplineRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2C8AC3E2B8E1CF60010C0C4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8AC682B8E457F0010C0C4 /* polaroid_go_copy.splineswift */,
+				E2C8AC592B8E35F20010C0C4 /* t_shirt_long_sleeve_male_dark_copy.splineswift */,
+				E2C8AC5E2B8E3C6B0010C0C4 /* apple_watch_copy.splineswift */,
+				E2C8AC602B8E3CEF0010C0C4 /* gameboy_copy.splineswift */,
+				E2C8AC572B8E332F0010C0C4 /* i_phone_14_pro_copy.splineswift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		E2C8AC492B8E1D6E0010C0C4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8AC4A2B8E1D9C0010C0C4 /* ObjectData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E2C8AC4C2B8E1EB20010C0C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8AC4D2B8E1EC10010C0C4 /* ObjectModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2C8AC5B2B8E38900010C0C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8AC5C2B8E38A50010C0C4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2C8AC652B8E432C0010C0C4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8AC662B8E43370010C0C4 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E2F57B1C2B8DFA35002A8830 = {
+			isa = PBXGroup;
+			children = (
+				E2F57B272B8DFA35002A8830 /* SplineApp */,
+				E2F57B262B8DFA35002A8830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F57B262B8DFA35002A8830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F57B252B8DFA35002A8830 /* Spline-Shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F57B272B8DFA35002A8830 /* SplineApp */ = {
+			isa = PBXGroup;
+			children = (
+				E2F57B362B8DFA96002A8830 /* App */,
+				E2F57B372B8DFAB1002A8830 /* View */,
+				E2C8AC492B8E1D6E0010C0C4 /* Data */,
+				E2C8AC4C2B8E1EB20010C0C4 /* Model */,
+				E2C8AC3E2B8E1CF60010C0C4 /* Objects */,
+				E2C8AC5B2B8E38900010C0C4 /* Extensions */,
+				E2C8AC652B8E432C0010C0C4 /* Helpers */,
+				E2F57B2E2B8DFA37002A8830 /* Preview Content */,
+			);
+			path = SplineApp;
+			sourceTree = "<group>";
+		};
+		E2F57B2E2B8DFA37002A8830 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2F57B2F2B8DFA37002A8830 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2F57B362B8DFA96002A8830 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E2F57B282B8DFA35002A8830 /* SplineAppApp.swift */,
+				E2F57B2A2B8DFA35002A8830 /* ContentView.swift */,
+				E2F57B2C2B8DFA37002A8830 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E2F57B372B8DFAB1002A8830 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8AC3C2B8E1B050010C0C4 /* CardView.swift */,
+				E2F57B3A2B8DFB0F002A8830 /* PurchaseButtonView.swift */,
+				E2F57B3F2B8E001D002A8830 /* Render3DView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F57B242B8DFA35002A8830 /* SplineApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F57B332B8DFA37002A8830 /* Build configuration list for PBXNativeTarget "SplineApp" */;
+			buildPhases = (
+				E2F57B212B8DFA35002A8830 /* Sources */,
+				E2F57B222B8DFA35002A8830 /* Frameworks */,
+				E2F57B232B8DFA35002A8830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplineApp;
+			packageProductDependencies = (
+				E2F57B422B8E0034002A8830 /* SplineRuntime */,
+			);
+			productName = SplineApp;
+			productReference = E2F57B252B8DFA35002A8830 /* Spline-Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F57B1D2B8DFA35002A8830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E2F57B242B8DFA35002A8830 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E2F57B202B8DFA35002A8830 /* Build configuration list for PBXProject "SplineApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2F57B1C2B8DFA35002A8830;
+			packageReferences = (
+				E2F57B412B8E0034002A8830 /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
+			productRefGroup = E2F57B262B8DFA35002A8830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F57B242B8DFA35002A8830 /* SplineApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F57B232B8DFA35002A8830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C8AC612B8E3CEF0010C0C4 /* gameboy_copy.splineswift in Resources */,
+				E2F57B302B8DFA37002A8830 /* Preview Assets.xcassets in Resources */,
+				E2C8AC692B8E457F0010C0C4 /* polaroid_go_copy.splineswift in Resources */,
+				E2C8AC5F2B8E3C6B0010C0C4 /* apple_watch_copy.splineswift in Resources */,
+				E2C8AC582B8E332F0010C0C4 /* i_phone_14_pro_copy.splineswift in Resources */,
+				E2C8AC5A2B8E35F20010C0C4 /* t_shirt_long_sleeve_male_dark_copy.splineswift in Resources */,
+				E2F57B2D2B8DFA37002A8830 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F57B212B8DFA35002A8830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C8AC4E2B8E1EC10010C0C4 /* ObjectModel.swift in Sources */,
+				E2F57B2B2B8DFA35002A8830 /* ContentView.swift in Sources */,
+				E2F57B402B8E001D002A8830 /* Render3DView.swift in Sources */,
+				E2C8AC5D2B8E38A50010C0C4 /* Extensions.swift in Sources */,
+				E2C8AC672B8E43370010C0C4 /* Helpers.swift in Sources */,
+				E2F57B3B2B8DFB0F002A8830 /* PurchaseButtonView.swift in Sources */,
+				E2F57B292B8DFA35002A8830 /* SplineAppApp.swift in Sources */,
+				E2C8AC3D2B8E1B050010C0C4 /* CardView.swift in Sources */,
+				E2C8AC4B2B8E1D9C0010C0C4 /* ObjectData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2F57B312B8DFA37002A8830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2F57B322B8DFA37002A8830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F57B342B8DFA37002A8830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SplineApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZL9DDXABC9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spline Shop";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniket.bane.SplineApp;
+				PRODUCT_NAME = "Spline-Shop";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2F57B352B8DFA37002A8830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SplineApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZL9DDXABC9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spline Shop";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniket.bane.SplineApp;
+				PRODUCT_NAME = "Spline-Shop";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F57B202B8DFA35002A8830 /* Build configuration list for PBXProject "SplineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F57B312B8DFA37002A8830 /* Debug */,
+				E2F57B322B8DFA37002A8830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F57B332B8DFA37002A8830 /* Build configuration list for PBXNativeTarget "SplineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F57B342B8DFA37002A8830 /* Debug */,
+				E2F57B352B8DFA37002A8830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2F57B412B8E0034002A8830 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2F57B422B8E0034002A8830 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2F57B412B8E0034002A8830 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E2F57B1D2B8DFA35002A8830 /* Project object */;
+}
