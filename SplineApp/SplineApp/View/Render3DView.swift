@@ -24,7 +24,7 @@ struct Render3DView: View {
                 try? SplineView(sceneFileURL: url)
                 
                 Button(action: {
-                    openUrl(urlString: "https://www.linkedin.com/in/aniket-bane-ios")
+                    openUrl(urlString: "https://www.linkedin.com/in/aniket-bane/")
                 }) {
                     Image("linkedin")
                         .resizable()
